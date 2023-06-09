@@ -1,0 +1,84 @@
+body{
+    background: url(../img/bg.jpg);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.header .right{
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 18px;
+    top: 16px;
+}
+.header .nav{
+    /* border: 2px solid green; */
+    display: block;
+    width: 50%;
+    margin: auto;
+     
+}
+.nav ul{
+    padding: 0px 18px;
+}
+.nav li{
+    display: inline-block;
+    
+}
+.nav li a{
+    margin: 9px;
+    text-decoration: none;
+    color: white;
+}
+.nav li a:hover{
+    color: dimgrey;
+    text-decoration: underline;
+}
+.header .logo{
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    width: 10%;
+    color: white;
+    
+}
+.header{
+    display: inline-block;
+    width: 100%;
+    /* background-color:#1a1111; */
+    padding: 1px;
+    margin: 0px;
+}
+
+.container{
+    /* background: url(../img/bg.jpg); */
+    display: inline-block;
+    width: 100%;
+}
+.logo img{
+    display: block;
+    margin: 8px auto;
+    width: 59%;
+
+}
+.header .text{
+    /* font-size: small; */
+    text-align: center;
+    line-height: 0px;
+    font-size: 15px;
+}
+.btn{
+    display: inline-block;
+    width: 75px;
+    margin: 0px 0px;
+    padding: 2px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #e9f0ddf3;
+    color: white;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn:hover{
+    text-decoration: underline;
+    background-color: black;
+}
